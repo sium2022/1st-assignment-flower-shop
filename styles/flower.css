@@ -42,6 +42,7 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    margin-top: 32px;
 }
 
 .banner-img {
@@ -64,7 +65,35 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding-left: 260px;
-    padding-right: 260px;
+    /* padding-left: 260px;
+    padding-right: 260px; */
     margin-top: 25px;
+}
+
+.feature-container {
+    display: flex;
+}
+.feature-container-flower{
+    width: 465px;
+    height: 535px;
+    text-align: center;
+}
+
+.feature-img-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 70px 0px;
+}
+.feature-img-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 115px 45px 50px;
+}
+.feature-img-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 65px 75px 0px;
+}
+.feature-img-info{
+
 }
