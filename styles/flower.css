@@ -11,20 +11,21 @@ body {
     max-height: 850px; */
 }
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
 }
 
-.banner-content{
+.banner-content {
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 90px;
 }
 
 .banner-heading {
-    /* width: 700px;
-    height: 280px; */
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
 }
 
 .banner-info {
@@ -32,7 +33,8 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 40px;
@@ -41,7 +43,28 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
-.banner-img{
-    width: 400px;
-    height: 600px;
+
+.banner-img {
+    width: 500px;
+    height: 700px;
+}
+
+/* feature */
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 180px;
+}
+
+.feature-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 260px;
+    padding-right: 260px;
+    margin-top: 25px;
 }
